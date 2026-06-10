@@ -5,7 +5,9 @@
 	(uuid "3dd6face-3078-4b2f-b2b2-ab0be8bb721f")
 	(paper "A5")
 	(title_block
-		(date "2026-06-08")
+		(title "以太网组件")
+		(date "2026-06-10")
+		(rev "V0.0.1")
 		(company "重庆创迪科技发展有限公司")
 	)
 	(lib_symbols

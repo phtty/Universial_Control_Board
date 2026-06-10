@@ -5,7 +5,9 @@
 	(uuid "e8d043c5-342b-4f41-8536-1fbe30f079f4")
 	(paper "A3")
 	(title_block
-		(date "2026-06-08")
+		(title "MCU及连接器组件")
+		(date "2026-06-10")
+		(rev "V0.0.1")
 		(company "重庆创迪科技发展有限公司")
 	)
 	(lib_symbols
@@ -30685,4 +30687,23 @@
 		)
 	)
 	(embedded_fonts no)
+	(embedded_files
+		(file
+			(name "通用图框1.kicad_wks")
+			(type worksheet)
+			(data |KLUv/WD/B8USAPbbVyEQtRtqMSSdbV9NJOgutWcFuLtYyEKEJnfhgyYigNABwAFOAEgAUADf4dgs
+				Z1/Lydun/ca9Qp1Rduc1VuTXeoUaZ3vJhj/yJwAAAQEIeg9llJPSKKtxzQOpzvi37Nc5hcScs6KS
+				9sU2zB4iAAKC8CPSNFtnP4RVpS0raZS7a/s3B71l9ptx917LltSnwx7X7r399s635oJw3prqv/59
+				uKNNW3OdUimjNdtKWNGSsz9vH1JU+7fd7zx/+B9zIA7tsGJlJSKSrELBMBrjWmQO04BKaYiIrrHW
+				E2a5GBp2qVQy06AV/hsj50zK/te7Jm3shyBPpT0vEq0tOY6TsyIA/uLN7Eo7xCA1qf6RP/dVBgFB
+				odZq1pog3Q388KLGOTORawKRLKpJpawiAnJFsEfWsA1DjZTGw8QelszivbVYVv/2Zbzp7OA2oWCT
+				a+IlWzHEOduSM8NglJBTpKyxtpyTCmig0TyHIBoSEUmSJB1gRMQM1jYMIOfcsItWzD3szqgaUdxx
+				TgCQW4aJoZlYtE6g2ps1ozNiaWv22Ide/dY5FsqTIKSIC1ugFWQbzBGuo/D5YoXrzqo3b4IwiYN7
+				OLONr1nBoRNFbMuQcKm0N22S0SfWc0XdAj4DcEo6nz2qwzgdefJBv7I1DznaKLcRqLv01tYfGAS0
+				D1Pe6FD24hwH5J3TnaslBJLFLMa6M1/2BGprHZe2YeDyqCekB9pq0hViMAAn+rLCIUrMJoHOq88h
+				CmbvNEjubNFBQptT+a0IkPO+Y1ijQVNP3Jt1fSBYLmFjuevAHwNcBQ==|
+			)
+			(checksum "28357255A911CC7409421370E643CAAB")
+		)
+	)
 )

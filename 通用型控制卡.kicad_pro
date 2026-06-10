@@ -279,7 +279,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "V0.0.1"
     },
     "layer_pairs": [
       {
@@ -751,7 +751,7 @@
     "meta": {
       "version": 1
     },
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "kicad-embed://通用图框1.kicad_wks",
     "plot_directory": "",
     "reuse_designators": true,
     "subpart_first_id": 65,
@@ -778,7 +778,7 @@
         "uuid": "265862a2-6b57-40ac-b33f-86ad5d011aff"
       }
     ],
-    "used_designators": "C56-58,R29-36,J13,U8-10,#PWR66-73",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

@@ -5,7 +5,9 @@
 	(uuid "23e271dc-0a9d-4d71-975b-1eca82b3c2f8")
 	(paper "A5")
 	(title_block
-		(date "2026-06-08")
+		(title "存储组件")
+		(date "2026-06-10")
+		(rev "V0.0.1")
 		(company "重庆创迪科技发展有限公司")
 	)
 	(lib_symbols
