@@ -4530,7 +4530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02c5d105-5771-479f-99d5-9553550f391c")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR046"
 			(at 111.76 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -4590,7 +4590,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR047")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -5516,7 +5516,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2eb066b5-fd00-41dc-b231-f7e5d2ed06ae")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR045"
 			(at 200.66 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5576,7 +5576,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR046")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5674,7 +5674,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "43327095-e5c9-4cd9-802c-3bb17916a583")
-		(property "Reference" "J11"
+		(property "Reference" "J10"
 			(at 147.574 163.576 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5738,7 +5738,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "J11")
+					(reference "J10")
 					(unit 1)
 				)
 			)
@@ -5755,7 +5755,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4750cc3c-7338-40e3-92f1-b3c2bb0042f8")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR050"
 			(at 100.33 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5815,7 +5815,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -5832,7 +5832,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4b0e76d4-43df-498d-937c-eb708fa9547c")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR043"
 			(at 251.46 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -5892,7 +5892,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR044")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -5909,7 +5909,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4ecc66ec-635c-4555-9e10-186e678a4850")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR052"
 			(at 69.85 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -5969,7 +5969,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR053")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -6067,7 +6067,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "565af309-08f2-4ff6-b786-3699c44d524c")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR051"
 			(at 99.06 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -6127,7 +6127,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR052")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6144,7 +6144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "62e6d656-1a52-47db-b150-959f768a1eb4")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR040"
 			(at 62.23 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6204,7 +6204,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR041")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -6221,7 +6221,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "76267817-3e97-4a04-b9cc-64ad0d84852f")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR041"
 			(at 200.66 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -6281,7 +6281,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR042")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -6379,7 +6379,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "82983538-7408-4067-aae3-e0fe9136722d")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR048"
 			(at 69.85 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6439,7 +6439,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR049")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6636,7 +6636,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c1cfd00-d3af-4301-ae9a-fa9da08623ca")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR042"
 			(at 111.76 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -6696,7 +6696,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR043")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7040,7 +7040,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9da93a4-1002-49e4-b85e-16f2db5317fd")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR044"
 			(at 62.23 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -7100,7 +7100,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR045")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -7198,7 +7198,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c4be2037-61f1-47bb-9a09-9823a7852eb2")
-		(property "Reference" "J8"
+		(property "Reference" "J7"
 			(at 106.68 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7262,7 +7262,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "J8")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -7360,7 +7360,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb5834fe-d1ef-4eb2-ab34-280712ed288a")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR047"
 			(at 251.46 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -7420,7 +7420,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR048")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -7642,7 +7642,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f05a1097-29cf-415c-9295-07c99f719b5b")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR049"
 			(at 60.96 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -7702,7 +7702,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "#PWR050")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -7719,7 +7719,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f443fde1-19de-462f-b395-17398316fdbb")
-		(property "Reference" "J9"
+		(property "Reference" "J8"
 			(at 242.824 49.276 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7783,7 +7783,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "J9")
+					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -7884,7 +7884,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fb6e7751-24c0-4202-9656-39c141717169")
-		(property "Reference" "J10"
+		(property "Reference" "J9"
 			(at 147.32 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7948,7 +7948,7 @@
 		(instances
 			(project "通用型控制卡"
 				(path "/3cb67af0-7388-47d7-b8d2-13d3ce4998ce"
-					(reference "J10")
+					(reference "J9")
 					(unit 1)
 				)
 			)
