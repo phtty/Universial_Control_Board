@@ -3316,8 +3316,8 @@
 		)
 	)
 	(rectangle
-		(start 33.02 81.28)
-		(end 35.56 93.98)
+		(start 31.75 81.28)
+		(end 36.83 93.98)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5193,11 +5193,11 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
+		(in_pos_files no)
+		(dnp yes)
 		(uuid "00bab10f-5bec-4955-9c9d-60b44ea7f703")
 		(property "Reference" "R28"
-			(at 35.814 88.646 0)
+			(at 36.83 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5208,7 +5208,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 35.814 86.614 0)
+			(at 36.83 86.614 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
