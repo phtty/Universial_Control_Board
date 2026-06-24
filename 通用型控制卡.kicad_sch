@@ -20425,6 +20425,30 @@
 			)
 		)
 	)
+	(global_label "~{RST}"
+		(shape output)
+		(at 44.45 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ddad7343-5eb8-4d56-99b6-3ed2fbb4c6c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 38.0177 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RS485.TX2"
 		(shape output)
 		(at 143.51 204.47 0)
@@ -24172,7 +24196,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -25992,7 +26016,7 @@
 		(at 198.12 111.76 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(in_pos_files no)
@@ -26419,7 +26443,7 @@
 		(at 198.12 133.35 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(in_pos_files no)
@@ -28837,7 +28861,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_12x12mm_H8mm"
+		(property "Footprint" "wyh:L_12x12mm_H8mm"
 			(at 345.44 219.71 0)
 			(hide yes)
 			(show_name no)

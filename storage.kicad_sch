@@ -1895,6 +1895,16 @@
 		)
 		(uuid "2b25b835-adfe-4635-8a2c-ad64d4a90e88")
 	)
+	(text "Tips: 4根Data信号线徐要走等长，长度控制在50mil以内"
+		(exclude_from_sim no)
+		(at 160.274 66.802 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "52f1fea2-c83f-4d02-9dc6-f9d43a1eb122")
+	)
 	(text "EEPROM"
 		(exclude_from_sim no)
 		(at 40.132 78.486 0)
@@ -2022,16 +2032,16 @@
 		(uuid "9a724c01-c487-442e-b893-8a1681c02180")
 	)
 	(junction
+		(at 38.1 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4643aeb-b23e-4505-ac8c-9b31e40418fa")
+	)
+	(junction
 		(at 38.1 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c24d19de-ee11-41d5-820f-3bb707ecc935")
-	)
-	(junction
-		(at 50.8 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d712d8c7-b52d-45f4-95a8-14e0c444ea73")
 	)
 	(junction
 		(at 128.27 36.83)
@@ -2044,12 +2054,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f29bccf5-ded2-4e48-8792-eccb40e3d26c")
-	)
-	(junction
-		(at 38.1 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f2fdefb8-974a-4732-aa25-244e74099d6d")
 	)
 	(junction
 		(at 115.57 41.91)
@@ -2080,6 +2084,16 @@
 			(type default)
 		)
 		(uuid "0448d5b3-23d2-470c-8a5f-86576524093c")
+	)
+	(wire
+		(pts
+			(xy 38.1 49.53) (xy 40.64 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b065146-de5f-4dfa-bf31-7cd03635e9ef")
 	)
 	(wire
 		(pts
@@ -2123,7 +2137,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 40.64) (xy 50.8 40.64)
+			(xy 53.34 36.83) (xy 50.8 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2193,7 +2207,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 36.83) (xy 50.8 40.64)
+			(xy 50.8 36.83) (xy 50.8 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2421,16 +2435,6 @@
 		)
 		(uuid "5ad65897-27d9-4bc5-8677-aaa29429a82a")
 	)
-	(wire
-		(pts
-			(xy 38.1 45.72) (xy 38.1 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b04aba3-8620-4902-ad6f-d79e1d6721b4")
-	)
 	(polyline
 		(pts
 			(xy 74.93 13.97) (xy 74.93 88.9)
@@ -2453,7 +2457,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 40.64) (xy 62.23 40.64)
+			(xy 60.96 36.83) (xy 62.23 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2463,17 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 46.99) (xy 38.1 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "65cb0f6b-d64a-43c8-9a35-bf37840e73f9")
-	)
-	(wire
-		(pts
-			(xy 38.1 46.99) (xy 40.64 46.99)
+			(xy 31.75 46.99) (xy 40.64 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 49.53) (xy 40.64 49.53)
+			(xy 30.48 49.53) (xy 38.1 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2563,6 +2557,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 45.72) (xy 38.1 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "838525e3-8a5f-41f7-97a4-7282cac675b1")
+	)
+	(wire
+		(pts
 			(xy 115.57 22.86) (xy 115.57 24.13)
 		)
 		(stroke
@@ -2593,7 +2597,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 40.64) (xy 62.23 46.99)
+			(xy 62.23 36.83) (xy 62.23 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2720,16 +2724,6 @@
 			(type default)
 		)
 		(uuid "a2a572d4-2da6-478f-a9f0-005ce42e8f2c")
-	)
-	(wire
-		(pts
-			(xy 50.8 40.64) (xy 50.8 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2ebd4e0-bf62-4fe1-890b-8769322a93e3")
 	)
 	(wire
 		(pts
@@ -3215,7 +3209,7 @@
 		(dnp no)
 		(uuid "02d64320-bce3-4e30-a08a-91ccc77925ce")
 		(property "Reference" "R35"
-			(at 26.67 41.148 0)
+			(at 26.67 40.894 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3710,7 +3704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Molex_47219-2001"
+		(property "Footprint" "wyh:microSD_HC_Molex_47219-2001"
 			(at 195.58 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -4460,7 +4454,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 57.15 40.64 270)
+		(at 57.15 36.83 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -4471,7 +4465,7 @@
 		(dnp no)
 		(uuid "79f1f1ac-91a2-4162-9897-b557fab6b45f")
 		(property "Reference" "C58"
-			(at 55.372 35.306 90)
+			(at 55.372 31.496 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4482,7 +4476,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 54.102 37.338 90)
+			(at 54.102 33.528 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4493,7 +4487,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
-			(at 53.34 39.6748 0)
+			(at 53.34 35.8648 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4504,7 +4498,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 40.64 0)
+			(at 57.15 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4515,7 +4509,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 57.15 40.64 0)
+			(at 57.15 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

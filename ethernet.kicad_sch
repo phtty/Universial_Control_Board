@@ -3339,6 +3339,16 @@
 		)
 		(uuid "559806ce-d84a-4fd3-8279-e1f412c0e987")
 	)
+	(text "Tips: 差分信号对内长度控制在5mil以内，对间长度控制在50mil以内，阻抗控制在100Ω"
+		(exclude_from_sim no)
+		(at 137.16 26.924 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b2e4d458-c1f2-492a-bb2a-a63536ecb215")
+	)
 	(text "Layout：反馈电阻，仅原理图预留"
 		(exclude_from_sim no)
 		(at 44.704 95.758 0)
@@ -3396,6 +3406,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fbdca69-8e37-44f3-92f3-810a4e0a2379")
+	)
+	(junction
+		(at 116.84 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "408643bc-7b6d-4b91-abdc-48cab84a8b83")
 	)
 	(junction
 		(at 59.69 19.05)
@@ -3462,12 +3478,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9aae6d21-2d8d-4218-a828-3e4bc756d4d1")
-	)
-	(junction
-		(at 116.84 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9df4df8d-f562-4e5d-808f-22919cabeb6d")
 	)
 	(junction
 		(at 82.55 25.4)
@@ -3811,16 +3821,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 55.88) (xy 133.35 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "375b62c1-da87-48b0-b632-eab04e461690")
-	)
-	(wire
-		(pts
 			(xy 29.21 82.55) (xy 34.29 82.55)
 		)
 		(stroke
@@ -4021,6 +4021,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 41.91) (xy 116.84 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663df7e1-a22b-4f43-95a1-bdc965ee377f")
+	)
+	(wire
+		(pts
 			(xy 27.94 66.04) (xy 41.91 66.04)
 		)
 		(stroke
@@ -4181,7 +4191,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 55.88) (xy 116.84 55.88)
+			(xy 106.68 55.88) (xy 133.35 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4248,16 +4258,6 @@
 			(type default)
 		)
 		(uuid "99253667-c887-4298-bed1-69113599edec")
-	)
-	(wire
-		(pts
-			(xy 116.84 41.91) (xy 116.84 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9bebf2fd-3a67-4919-868f-46167c2ed6c8")
 	)
 	(wire
 		(pts
@@ -4821,6 +4821,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 58.42) (xy 133.35 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f655e1dc-6e56-44fe-81f7-b02d3c097dda")
+	)
+	(wire
+		(pts
 			(xy 29.21 90.17) (xy 29.21 92.71)
 		)
 		(stroke
@@ -4831,7 +4841,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 58.42) (xy 133.35 58.42)
+			(xy 80.01 58.42) (xy 116.84 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5113,6 +5123,30 @@
 			)
 		)
 	)
+	(global_label "~{RST}"
+		(shape input)
+		(at 36.83 76.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b1de6b2d-a928-4dea-ad97-f5c1204058e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 30.3977 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "ETH.MDC"
 		(shape input)
 		(at 27.94 71.12 180)
@@ -5190,7 +5224,7 @@
 		(at 34.29 87.63 0)
 		(unit 1)
 		(body_style 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(in_pos_files no)
@@ -5258,6 +5292,12 @@
 			(uuid "9ded9bb2-5218-4a42-8e23-b000d9113ed0")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "R28")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "R28")
@@ -5339,6 +5379,12 @@
 			(uuid "b99111f5-7d52-4031-a15a-74a6da99babd")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "C49")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "C49")
@@ -5420,6 +5466,12 @@
 			(uuid "69f70faa-e93b-4059-bb36-7fbfd11c0376")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "C52")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "C52")
@@ -5501,6 +5553,12 @@
 			(uuid "962a1c4a-734b-486b-89b0-2b893e60ea78")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "C48")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "C48")
@@ -5582,6 +5640,12 @@
 			(uuid "c5a06d32-5f6a-416b-b90e-b8212e473e28")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "C45")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "C45")
@@ -5623,7 +5687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
+		(property "Footprint" "wyh:VQFN-24-1EP_4x4mm_P0.5mm_EP2.5x2.5mm_ThermalVias"
 			(at 63.5 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -5733,6 +5797,12 @@
 			(uuid "14663444-eb26-4561-a320-a35aa1e17bcf")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "U7")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "U7")
@@ -5810,6 +5880,12 @@
 			(uuid "e0c318ca-3e00-4b0a-aec5-e60a41d5b17e")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR057")
@@ -5887,6 +5963,12 @@
 			(uuid "a7d22093-0808-4a1f-8310-7c348624e0f4")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR056")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR056")
@@ -5968,6 +6050,12 @@
 			(uuid "84650971-5be6-49bc-9dc2-306944b18cef")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "C46")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "C46")
@@ -6049,6 +6137,12 @@
 			(uuid "d590163f-d4cf-460f-abb5-93884c75b38f")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "R20")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "R20")
@@ -6130,6 +6224,12 @@
 			(uuid "807c0579-0069-4aa1-8fe5-9ae997282384")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "C54")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "C54")
@@ -6211,6 +6311,12 @@
 			(uuid "dd92e9ab-61bf-44dd-8b7b-7ba9a4b39e6b")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "R23")
@@ -6288,6 +6394,12 @@
 			(uuid "1ad33588-70e9-4db8-9927-21eada460d46")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR059")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR059")
@@ -6365,6 +6477,12 @@
 			(uuid "69d16733-b431-49f2-b4e0-fa65b95c1460")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR060")
@@ -6446,6 +6564,12 @@
 			(uuid "6f725a4f-514e-49fe-8e1f-21bd3f31868d")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "C55")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "C55")
@@ -6527,6 +6651,12 @@
 			(uuid "a39b8ca4-f573-4396-ab3a-4db4e6bc4386")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "R25")
@@ -6604,6 +6734,12 @@
 			(uuid "ae5cd2c2-08e9-4d17-aa34-203720e39ac6")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR058")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR058")
@@ -6682,6 +6818,12 @@
 			(uuid "cb20a0e1-81f7-4f65-88ad-26bb38cb432b")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#FLG06")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#FLG06")
@@ -6759,6 +6901,12 @@
 			(uuid "b8b01f46-4db3-42a2-ac24-77cae312bd0b")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR064")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR064")
@@ -6836,6 +6984,12 @@
 			(uuid "0e372b95-b765-48d8-803c-54313833fa64")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR054")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR054")
@@ -6917,6 +7071,12 @@
 			(uuid "4ad48fc5-ca03-480f-b004-dc973297272f")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "C53")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "C53")
@@ -6998,6 +7158,12 @@
 			(uuid "75b035f3-e8fb-404e-961e-672ad28940cf")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "R22")
@@ -7079,6 +7245,12 @@
 			(uuid "0fdc6255-416b-47f6-8da4-e33d9ac87974")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "R26")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "R26")
@@ -7160,6 +7332,12 @@
 			(uuid "b87af8db-7232-4937-a3ef-97e7e735eff7")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "C47")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "C47")
@@ -7237,6 +7415,12 @@
 			(uuid "2c8e73fb-f0ad-41eb-afe4-1a063ceae6fd")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR062")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR062")
@@ -7318,6 +7502,12 @@
 			(uuid "3fbaeb1a-4358-436f-9084-894b979e53c7")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "R21")
@@ -7358,7 +7548,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_RJ:RJ45_Hanrun_HR911105A_Horizontal"
+		(property "Footprint" "wyh:RJ45_Hanrun_HR911105A_Horizontal"
 			(at 153.67 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7431,6 +7621,12 @@
 			(uuid "2fec16be-1631-44bb-9077-da1355af8670")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "J11")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "J11")
@@ -7508,6 +7704,12 @@
 			(uuid "cbfa6f8b-34a7-4782-aa23-79c14107a2c8")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR053")
@@ -7589,6 +7791,12 @@
 			(uuid "c4520d69-af1d-43fe-9066-c44e9c84d666")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "C51")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "C51")
@@ -7667,6 +7875,12 @@
 			(uuid "0cb10d04-367f-4e09-a4eb-0b1d86f9aff7")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#FLG05")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#FLG05")
@@ -7744,6 +7958,12 @@
 			(uuid "69bb5b79-805b-4d84-bc4b-926c60706915")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR061")
@@ -7825,6 +8045,12 @@
 			(uuid "503c3bd6-7b68-4bdb-84e6-f66ef5d625c1")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "R24")
@@ -7907,6 +8133,12 @@
 			(uuid "16678334-8a99-42d5-a094-f88c4a11dacd")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "FB1")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "FB1")
@@ -7947,7 +8179,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm_HandSoldering"
+		(property "Footprint" "Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm"
 			(at 29.21 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -8015,6 +8247,12 @@
 			(uuid "383abb0a-4939-4def-a1fb-23e355752d96")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "Y3")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "Y3")
@@ -8092,6 +8330,12 @@
 			(uuid "fb56eb0d-f0a5-424f-9a53-cca322582006")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR063")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR063")
@@ -8174,6 +8418,12 @@
 			(uuid "27e6cb40-a4e3-4693-bc5b-af9323f13f36")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "C50")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "C50")
@@ -8255,6 +8505,12 @@
 			(uuid "ec783188-9a3d-40f8-9627-50b899351883")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "R27")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "R27")
@@ -8336,6 +8592,12 @@
 			(uuid "1c31727a-b9cf-4d03-83d6-220126abf40f")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "R19")
@@ -8413,6 +8675,12 @@
 			(uuid "4f907598-c6ea-42ef-970c-d2d04f41f4a8")
 		)
 		(instances
+			(project "ethernet"
+				(path "/3dd6face-3078-4b2f-b2b2-ab0be8bb721f"
+					(reference "#PWR055")
+					(unit 1)
+				)
+			)
 			(project "通用型控制卡"
 				(path "/663e394a-ab41-456f-8927-f2089badb93c"
 					(reference "#PWR055")
