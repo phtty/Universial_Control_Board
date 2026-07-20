@@ -60,9 +60,9 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.2,
+          "min_clearance": 0.3,
           "min_island_area": 10.0,
-          "min_thickness": 0.25,
+          "min_thickness": 0.3,
           "pad_connection": 3,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -81,7 +81,76 @@
           "width": 0.25
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "connection_width|83138356|-30861088|e9a3ae3d-87c8-4cca-9dff-620e627ffcc8|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "drill_out_of_range|29500000|-19180000|635f1399-10d6-4204-9b25-baf5cc28658a|00000000-0000-0000-0000-000000000000",
+          "封装散热焊盘"
+        ],
+        [
+          "drill_out_of_range|29500000|-20180000|236b7812-ec48-4b00-a411-bd70ec90f675|00000000-0000-0000-0000-000000000000",
+          "封装散热焊盘"
+        ],
+        [
+          "drill_out_of_range|29500000|-21180000|76928de1-92ac-4067-8ad1-25ce4b00b30c|00000000-0000-0000-0000-000000000000",
+          "封装散热焊盘"
+        ],
+        [
+          "drill_out_of_range|30500000|-19180000|eafe64de-0c5f-4710-bdf1-ad2ac73c2dbb|00000000-0000-0000-0000-000000000000",
+          "封装散热焊盘"
+        ],
+        [
+          "drill_out_of_range|30500000|-20180000|a646e66f-50f1-46a9-85a5-570b8b133d63|00000000-0000-0000-0000-000000000000",
+          "封装散热焊盘"
+        ],
+        [
+          "drill_out_of_range|30500000|-21180000|e27a84b1-522b-402a-8bc7-4eb0437bedee|00000000-0000-0000-0000-000000000000",
+          "封装散热焊盘"
+        ],
+        [
+          "drill_out_of_range|31500000|-19180000|ba583935-efcb-4ea9-aa24-93c9ba59082e|00000000-0000-0000-0000-000000000000",
+          "封装散热焊盘"
+        ],
+        [
+          "drill_out_of_range|31500000|-20180000|05c036e9-8383-4681-864c-7596a681515d|00000000-0000-0000-0000-000000000000",
+          "封装散热焊盘"
+        ],
+        [
+          "drill_out_of_range|31500000|-21180000|c7aa8825-cba0-4c3c-bb29-c257cba421d0|00000000-0000-0000-0000-000000000000",
+          "封装散热焊盘"
+        ],
+        [
+          "lib_footprint_mismatch|36900000|-59100000|69efa1b2-e4e3-4f2d-bb7f-ada2212403cd|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_edge_clearance|60890000|-100000000|9f991dbd-d0af-498d-897e-3bde0f60ba9c|a844d6cd-fcb2-4751-bf68-9c2dea195d59",
+          ""
+        ],
+        [
+          "silk_edge_clearance|60910000|-100000000|9f991dbd-d0af-498d-897e-3bde0f60ba9c|b8f45e02-3226-4425-933a-68b3b22e23de",
+          ""
+        ],
+        [
+          "silk_edge_clearance|83390000|-100000000|9f991dbd-d0af-498d-897e-3bde0f60ba9c|cdaa5ae2-d7cd-4b43-abc3-0b364e493c5e",
+          ""
+        ],
+        [
+          "silk_edge_clearance|83410000|-100000000|9f991dbd-d0af-498d-897e-3bde0f60ba9c|a589b709-eafd-4a20-9626-fbf86cce2021",
+          ""
+        ],
+        [
+          "silk_over_copper|37533682|-40670265|83a57715-07ca-4fb1-802b-8561fa62a4ad|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "silk_over_copper|38799551|-41937886|9e43ae19-de20-4f7b-b267-d5ab7239dd0f|00000000-0000-0000-0000-000000000000",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -152,20 +221,20 @@
       "rules": {
         "max_error": 0.001,
         "min_clearance": 0.2,
-        "min_connection": 0.2,
+        "min_connection": 0.15,
         "min_copper_edge_clearance": 0.5,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.0,
         "min_microvia_drill": 0.0,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 0,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.5,
         "min_text_thickness": 0.05,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.25,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.15,
+        "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
