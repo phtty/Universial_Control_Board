@@ -4629,7 +4629,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 105.1052 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5214,7 +5214,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 112.7252 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5295,7 +5295,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 252.4252 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -5675,7 +5675,7 @@
 		(dnp no)
 		(uuid "43327095-e5c9-4cd9-802c-3bb17916a583")
 		(property "Reference" "J10"
-			(at 147.574 163.576 0)
+			(at 147.066 163.83 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5685,8 +5685,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RS232_2"
-			(at 147.574 166.116 0)
+		(property "Value" "Sockets"
+			(at 147.066 166.116 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5721,6 +5722,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 146.05 163.83 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "定义" "RS232_2"
+			(at 151.13 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6819,7 +6830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 244.8052 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -7199,7 +7210,7 @@
 		(dnp no)
 		(uuid "c4be2037-61f1-47bb-9a09-9823a7852eb2")
 		(property "Reference" "J7"
-			(at 106.68 49.53 0)
+			(at 106.426 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7209,8 +7220,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RS485_1"
+		(property "Value" "Sockets"
 			(at 106.68 52.07 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7245,6 +7257,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 105.41 49.53 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "定义" "RS485_1"
+			(at 110.49 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7720,7 +7742,7 @@
 		(dnp no)
 		(uuid "f443fde1-19de-462f-b395-17398316fdbb")
 		(property "Reference" "J8"
-			(at 242.824 49.276 0)
+			(at 242.316 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7730,8 +7752,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RS485_2"
+		(property "Value" "Sockets"
 			(at 242.824 51.816 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7766,6 +7789,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 241.3 49.53 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "定义" "RS485_2"
+			(at 246.38 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7895,8 +7928,9 @@
 				(justify left)
 			)
 		)
-		(property "Value" "RS232_1"
+		(property "Value" "Sockets"
 			(at 147.32 158.75 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7931,6 +7965,16 @@
 		(property "Description" "Generic connector, single row, 01x02, script generated"
 			(at 146.05 156.21 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "定义" "RS232_1"
+			(at 151.13 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
