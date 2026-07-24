@@ -5034,7 +5034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 200.66 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -6570,7 +6570,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SO:SOIC-8_5.3x5.3mm_P1.27mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 62.23 57.15 0)
 			(hide yes)
 			(show_name no)
